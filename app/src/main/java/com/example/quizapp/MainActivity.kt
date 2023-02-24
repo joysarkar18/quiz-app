@@ -1,5 +1,6 @@
 package com.example.quizapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -18,6 +19,11 @@ class MainActivity : AppCompatActivity() {
         binding.EnterBtn.setOnClickListener {
             if(binding.enteredName.text.toString().isEmpty()){
                 Toast.makeText(applicationContext , "Enter your name" , Toast.LENGTH_SHORT).show()
+            }
+            else{
+                val intent = Intent(this , QuestionAns::class.java)
+                startActivity(intent)
+                finish()
             }
         }
 

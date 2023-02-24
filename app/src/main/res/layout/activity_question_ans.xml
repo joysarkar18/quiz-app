@@ -4,6 +4,133 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DFE5E4"
     tools:context=".QuestionAns">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_flag_of_argentina" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="#881EC6"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="33dp"
+        android:indeterminate="false"
+        android:max="10"
+        android:minHeight="50dp"
+        android:progress="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="What country this flag belong to?"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="208dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/option_backgraoun"
+        android:gravity="clip_horizontal"
+        android:padding="12dp"
+        android:backgroundTint="#BCBDBD"
+        android:text="option 1"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="208dp"
+        android:backgroundTint="#BCBDBD"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/option_backgraoun"
+        android:gravity="clip_horizontal"
+        android:padding="12dp"
+        android:text="option 2"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="208dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#BCBDBD"
+        android:background="@drawable/option_backgraoun"
+        android:gravity="clip_horizontal"
+        android:padding="12dp"
+        android:text="option 3"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="208dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#BCBDBD"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/option_backgraoun"
+        android:gravity="clip_horizontal"
+        android:padding="12dp"
+        android:text="option 4"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="206dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#0AA655"
+        android:text="submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
