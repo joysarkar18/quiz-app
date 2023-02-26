@@ -4,7 +4,7 @@ object constants{
     fun getQuestions():ArrayList<Questions>{
        var qns = ArrayList<Questions>()
 
-        var q1 = Questions(1,"What country this flag belong to?" ,
+        var q1 = Questions(1,"What country does this flag belong to?" ,
             R.drawable.ic_flag_of_argentina,
             "Denmark",
             "Myanmar",
@@ -15,7 +15,7 @@ object constants{
         qns.add(q1)
 
 
-        var q2 = Questions(2,"What country this flag belong to?" ,
+        var q2 = Questions(2,"What country does this flag belong to?" ,
             R.drawable.ic_flag_of_australia,
             "Australia",
             "Brazil",
@@ -26,7 +26,7 @@ object constants{
         qns.add(q2)
 
 
-        var q3 = Questions(3,"What country this flag belong to?" ,
+        var q3 = Questions(3,"What country does this flag belong to?" ,
             R.drawable.ic_flag_of_india,
             "Australia",
             "India",
@@ -36,7 +36,7 @@ object constants{
         )
         qns.add(q3)
 
-        var q4 = Questions(4,"What country this flag belong to?" ,
+        var q4 = Questions(4,"What country does this flag belong to?" ,
             R.drawable.ic_flag_of_belgium,
 
             "India",
@@ -46,7 +46,7 @@ object constants{
             4
         )
         qns.add(q4)
-        var q5 = Questions(5,"What country this flag belong to?" ,
+        var q5 = Questions(5,"What country does this flag belong to?" ,
             R.drawable.ic_flag_of_brazil,
 
             "Denmark",
@@ -59,7 +59,7 @@ object constants{
 
 
 
-        var q6 = Questions(6,"What country this flag belong to?" ,
+        var q6 = Questions(6,"What country does this flag belong to?" ,
             R.drawable.ic_flag_of_fiji,
 
             "Fiji",
@@ -71,7 +71,7 @@ object constants{
         qns.add(q6)
 
 
-        var q7 = Questions(7,"What country this flag belong to?" ,
+        var q7 = Questions(7,"What country does this flag belong to?" ,
             R.drawable.ic_flag_of_new_zealand,
 
             "Uk",
@@ -83,7 +83,7 @@ object constants{
         qns.add(q7)
 
 
-        var q8 = Questions(8,"What country this flag belong to?" ,
+        var q8 = Questions(8,"What country does this flag belong to?" ,
             R.drawable.ic_flag_of_kuwait,
 
             "India",
@@ -95,7 +95,7 @@ object constants{
         qns.add(q8)
 
 
-        var q9= Questions(9,"What country this flag belong to?" ,
+        var q9= Questions(9,"What country does this flag belong to?" ,
             R.drawable.ic_flag_of_denmark,
 
             "Denmark",
@@ -108,7 +108,7 @@ object constants{
         qns.add(q9)
 
 
-        var q10= Questions(10,"What country this flag belong to?" ,
+        var q10= Questions(10,"What country does this flag belong to?" ,
             R.drawable.ic_flag_of_germany,
             "India",
             "Kuwait",
